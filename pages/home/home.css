@@ -1,0 +1,12 @@
+ion-content{
+}
+ion-item{
+  background: #fffcdc;
+}
+h2 {
+  color:black ;
+}
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+}
