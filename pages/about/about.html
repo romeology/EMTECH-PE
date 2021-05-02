@@ -11,6 +11,19 @@
 </ion-item>
 <ion-content padding>
 
+<ion-list>
+  <ion-item>
+      <ion-label color="dark"> Exercise Activity: </ion-label>
+      <ion-select interface="popover" [(ngModel)]="gender">
+      <ion-option value="SD">Standing at Desk</ion-option>
+      <ion-option value="WD">Washing Dishes</ion-option>
+      <ion-option value="HW">Housework (Cleaning, Sweeping) </ion-option>
+      <ion-option value="WT">Weight Training (Light Weights): 5</ion-option>
+      <ion-option value="WBP">Walking at a Very Brisk Pace</ion-option>
+      <ion-option value="RN">Running</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
 
 
 
