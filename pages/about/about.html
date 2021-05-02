@@ -1,26 +1,41 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      C
+      Calories Burned Calculator
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-item>
-
-</ion-item>
 <ion-content padding>
-<ion-list>
+
   <ion-item>
-      <ion-label color"dark"> Exercise Activity: </ion-label>
-      <ion-select interface="popover" [(ngModel)]="gender">
-      <ion-option value="SD">Standing at Desk</ion-option>
-      <ion-option value="WD">Washing Dishes</ion-option>
-      <ion-option value="HW">Housework (Cleaning, Sweeping) </ion-option>
-      <ion-option value="WT">Weight Training (Light Weights): 5</ion-option>
-      <ion-option value="WBP">Walking at a Very Brisk Pace</ion-option>
-      <ion-option value="RN">Running</ion-option>
+    <ion-label> Exercise Activity: </ion-label>
+    <ion-select interface="popover" [(ngModel)]="exercise">
+      <ion-option value=1.3>Sitting at Desk </ion-option>
+      <ion-option value=2.2>Washing Dishes</ion-option>
+      <ion-option value=3.5>Housework</ion-option>
+      <ion-option value=5.0>Heavy Weight Training</ion-option>
+      <ion-option value=6>Walking at Very Brisk Pace</ion-option>
+      <ion-option value=11.5>Running</ion-option>
     </ion-select>
+</ion-item>
+<ion-item>
+  <ion-label>Weight in Kilogram:</ion-label>
+  <ion-input type="number" [(ngModel)]="kg"></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label>Duration in Minutes:</ion-label>
+  <ion-input type="number" [(ngModel)]="mins"></ion-input>
+</ion-item>
+<button ion-button (click)="CalculateCalBurn(exercise)">CALCULATE</button>
+
+<ion-item *ngIf="CalBurn">
+
+  <h3>Results:</h3>
+  <h2>Burned Calories: {{CalBurn}} cal</h2>
+  <h2>Weight Lost: {{kglost}} kg</h2>
+
   </ion-item>
-</ion-list>
+
 </ion-content>
