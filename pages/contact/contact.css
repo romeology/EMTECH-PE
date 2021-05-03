@@ -1,3 +1,61 @@
+
 ion-content{
     background: linear-gradient(to top, #4ac29a, #bdfff3);
+}
+
+h2 {
+  color:black ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Cabanero{
+    display: flex;
+    justify-content: left;
+}
+
+.Cabanero img{
+    margin: auto 5px;
+    float: start;
+    width: 130px;
+    height: 175px;
+
+}
+
+.Coladilla{
+    display: flex;
+    justify-content: left;
+}
+
+.Coladilla img{
+    margin: auto 5px;
+    float: start;
+    width: 130px;
+    height: 175px;
+
+}
+.Pocot{
+    display: flex;
+    justify-content: left;
+}
+
+.Pocot img{
+    margin: auto 5px;
+    float: start;
+    width: 130px;
+    height: 175px;
+
+}
+.Sendin{
+    display: flex;
+    justify-content: left;
+}
+
+.Sendin img{
+    margin: auto 5px;
+    float: start;
+    width: 130px;
+    height: 175px;
+
 }
