@@ -65,9 +65,22 @@ p {
   font-size: 17px;
 
 }
-h4 {
+h2 {
   color:#5816c4 ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: justify;
-  font-size: 20px;
+   
+}
+
+h3 {
+  color:#C24A72 ;
+   
+}
+
+h4 {
+  color:#C24A72 ;
+   
+}
+
+h5 {
+  color:#C24A72 ;
+   
 }
