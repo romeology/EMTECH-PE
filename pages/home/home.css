@@ -1,19 +1,30 @@
 ion-content{
+    background: linear-gradient(to top, #4ac29a, #bdfff3);
 }
 ion-item{
-  background: #fffcdc;
 }
 h2 {
   color:black ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  font-size: 40px;
+  
 }
 h5 {
-  color:black ;
+  color:#fd810d ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  font-size: 22px;
+}
+h6 {
+  color:#C24A72 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  font-size: 20px;
 }
 p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#000000;
+  font-family: 'Helvetica';
   text-align: justify;
+  font-size: 16px;
 }
