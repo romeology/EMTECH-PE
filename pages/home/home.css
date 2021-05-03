@@ -3,6 +3,18 @@ ion-content{
 }
 ion-item{
 }
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    margin: auto 5px;
+    float: start;
+    width: 400px;
+    height: 350px;
+
+}
 h2 {
   color:black ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,3 +41,5 @@ p {
   font-size: 17px;
 
 }
+
+
