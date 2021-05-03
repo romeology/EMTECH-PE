@@ -14,20 +14,17 @@ h2 {
     display: flex;
     justify-content: left;
 }
-
 .Cabanero img{
     margin: auto 5px;
     float: start;
     width: 130px;
     height: 175px;
-
 }
 
 .Coladilla{
     display: flex;
     justify-content: left;
 }
-
 .Coladilla img{
     margin: auto 5px;
     float: start;
@@ -39,7 +36,6 @@ h2 {
     display: flex;
     justify-content: left;
 }
-
 .Pocot img{
     margin: auto 5px;
     float: start;
@@ -51,7 +47,6 @@ h2 {
     display: flex;
     justify-content: left;
 }
-
 .Sendin img{
     margin: auto 5px;
     float: start;
