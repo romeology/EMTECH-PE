@@ -58,3 +58,11 @@ h2 {
     margin-left: 40px;
 
 }
+
+p {
+  color:#000000;
+  font-family: 'Helvetica';
+  text-align: justify;
+  font-size: 17px;
+
+}
