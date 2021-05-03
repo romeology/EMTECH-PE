@@ -28,7 +28,7 @@
   <ion-label>Duration in Minutes:</ion-label>
   <ion-input type="number" [(ngModel)]="mins"></ion-input>
 </ion-item>
-<button ion-button (click)="CalculateCalBurn(exercise)">CALCULATE</button>
+<button ion-button color="secondary" (click)="CalculateCalBurn(exercise)">CALCULATE</button>
 
 <ion-item *ngIf="CalBurn">
   <h3>Results:</h3>
