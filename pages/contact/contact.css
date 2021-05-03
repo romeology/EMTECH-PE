@@ -19,6 +19,7 @@ h2 {
     float: start;
     width: 130px;
     height: 175px;
+    margin-left: 40px;
 }
 
 .Coladilla{
@@ -30,6 +31,7 @@ h2 {
     float: start;
     width: 130px;
     height: 175px;
+    margin-left: 40px;
 
 }
 .Pocot{
@@ -41,6 +43,7 @@ h2 {
     float: start;
     width: 130px;
     height: 175px;
+    margin-left: 40px;
 
 }
 .Sendin{
@@ -52,5 +55,6 @@ h2 {
     float: start;
     width: 130px;
     height: 175px;
+    margin-left: 40px;
 
 }
